@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+</head>
+<body>
+
+
+ <nav>
+        <h4>Node MySQL Login</h4>
+        <ul>
+            {{#unless authenticated }}
+                <li><a href="/login">Вход</a></li>
+            {{/unless}}
+            {{#if authenticated }}
+                <li><a href="/logout">Выход</a></li>
+            {{/if}}
+            {{#unless authenticated }}
+                <li><a href="/register">Регистрация</a></li>
+            {{/unless}}
+        </ul>
+    </nav>
+
+
+<body> 
+    <div class
+        ="container mt-4"><div 
+        class="mt-4 p-5 bg-primary text-white rounded"><h1>My Login Project</h1>
+        <p>This project demonstrates how to implement login and register functionalities with Node.js and MySQL </p>
+    </div>
+</div>
+</body>
