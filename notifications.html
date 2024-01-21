@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: turquoise;
+            border: 1px teal;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .close-btn {
+            float: right;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: #000;
+        }
+
+        p {
+            font-family: Arial Black;
+            color: teal;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div id="notification" class="notification">
+        <span id="close-btn" class="close-btn">&times;</span>
+        <p>Отличное начало! Теперь Вы на шаг ближе к цели :)</p>
+      </div>
+
+    <script>
+
+    // Тут будет условие, при котором выведется уведомление, - первый отвеченный вопрос (нажание 1-й кнопки в опросе)
+        
+    const notification = document.getElementById('notification');
+    const closeBtn = document.getElementById('close-btn');
+
+    // Закрытие уведомления
+    function closeNotification() {
+    notification.style.display = 'none';
+    }
+
+    // Нажимаем на крестик - уведомление закрывается
+    closeBtn.addEventListener('click', closeNotification);
+    
+    </script>
+
+</body>
+
+</html>
