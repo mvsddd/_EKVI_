@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <style>
+        h1 {
+            font-family : Arial Black;
+            color :indigo;
+        }
+
+        blockquote {
+            margin: 0;
+        }
+
+        blockquote p {
+        padding: 15px;
+        background: #eee;
+        border-radius: 5px;
+        }
+
+        blockquote p::before {
+        content: '\201C';
+        }
+
+
+        blockquote p::after {
+        content: '\201D';
+        }
+
+        p {
+            font-family: Bookman Old Style;
+        }
+
+        button {
+            font-family: Arial Black;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Личный кабинет</h1></center>
+
+    <blockquote>
+        <p>В личном кабинете Вы можете отследить свой прогресс о прохождении опроса, 
+            увидеть указанную личную информацию и ознакомиться с предложенным сервисом заданиями.</p>
+    </blockquote>
+
+    <button id="link-button">Путь</button> 
+
+    <button id="link-button2">Задания</button>
+
+    <script> 
+ 
+        var button = document.getElementById("link-button"); 
+        button.addEventListener("click", function() { 
+        window.location.href = "path.html"; 
+        }); 
+
+        var button = document.getElementById("link-button2"); 
+        button.addEventListener("click", function() { 
+        window.location.href = "tasks.html"; 
+        }); 
+        
+        </script> 
+
+
+    <p>Команда ЭКВИ:</p>
+
+    <address>
+    <a href="mailto:ellowleen@mail.ru">ellowleen@mail.ru</a><br /> 
+    <a href="mailto:elvina-khasanova2016@mail.ru">elvina-khasanova2016@mail.ru</a><br />
+    <a href="mailto:ksene4kap@yandex.ru">ksene4kap@yandex.ru</a><br />
+    <a href="mailto:ilona.armizonova@yandex.ru">ilona.armizonova@yandex.ru</a><br />
+    </address>
+
+</body>
+</html>
