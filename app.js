@@ -8,7 +8,7 @@ const app = express();
 const DATABASE = 'login';
 const DATABASE_HOST = 'localhost';
 const DATABASE_USER = 'root';
-const DATABASE_PASSWORD = '9xsDD9685_';
+const DATABASE_PASSWORD = 'zxcvbnm12345!';
 
 const db = mysql.createConnection({
     host: DATABASE_HOST,
