@@ -117,10 +117,9 @@ a {
 }
 
 .box-link {
-    display: flex;
-    margin: 5% 15%;
-    justify-content: space-between;
-    font-size: 90%;
+    font-size: 2vh;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .auth__link {
