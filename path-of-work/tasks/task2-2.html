@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>2 задание</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rock+Salt%3A400"/>
+  <link rel="stylesheet" href="./styles/.css"/>
+
+  <style>
+    .notification {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #b4e1eb;
+        border: 10px teal;
+        padding: 10px;
+        border-radius: 4px;
+        width: 30rem;
+        height: 5rem;
+        font-size: medium;
+
+    }
+
+    .close-btn {
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close-btn:hover {
+        color: #000;
+    }
+
+    p {
+        font-family: Arial Black;
+        color: teal;
+    }
+    
+</style>
+
+</head>
+
+<body>
+<div class="item-1--DUo">
+  <img class="item-8384616-5-1fZ" src="./assets/-TjR.png"/>
+  <div class="rectangle-3-VKq">
+  </div>
+  <div> <button id="link-button">выполнено</button>
+  </div>
+
+  <div class="item--MmM">
+  </div>
+  <div> <button id="link-button2">пропустить</button>
+  </div>
+
+  <img class="item-6357269-1-sNK" src="./assets/4665856.jpg"/>
+  <div class="rectangle-4-Bdu">
+  </div>
+  <p class="ekvi-7XZ">EKVI</p>
+  <p class="item--pRy">Познакомьтесь в интернете с понравившимся человеком из Вашего места обучения.</p>
+  <p class="item--br3">цифровой сервис для социализации молодежи</p>
+
+  <div id="notification" class="notification">
+    <span id="close-btn" class="close-btn">&times;</span>
+    <p>Отличное начало! Теперь Вы на шаг ближе к цели :)</p>
+  </div>
+
+  <script> 
+ 
+    var button = document.getElementById("link-button"); 
+    button.addEventListener("click", function() { 
+    window.location.href = "../variants2.html"; 
+    }); 
+
+    var button = document.getElementById("link-button2"); 
+    button.addEventListener("click", function() { 
+    window.location.href = "../variants2.html"; 
+    });
+
+    const notification = document.getElementById('notification');
+    const closeBtn = document.getElementById('close-btn');
+
+    function closeNotification() {
+    notification.style.display = 'none';
+    }
+
+    closeBtn.addEventListener('click', closeNotification);
+
+  </script>
+</div>
+</body>
+</html>

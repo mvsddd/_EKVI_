@@ -1,0 +1,109 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.item--YNX {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.item--YNX .auto-group-6jgw-igK {
+  width: 100%;
+  height: 19.5rem;
+  position: relative;
+  background-color: #b4e1eb;
+  flex-shrink: 0;
+}
+.item--YNX .auto-group-6jgw-igK .item--RDM {
+  width: 39.6rem;
+  height: 2rem;
+  position: absolute;
+  left: 56.2rem;
+  top: 16.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #020202;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.item--YNX .auto-group-6jgw-igK .ekvi-B63 {
+  width: 18.3rem;
+  height: 15.3rem;
+  position: absolute;
+  left: 62.5rem;
+  top: 3.1rem;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 2.3875;
+  color: #000000;
+  font-family: Rock Salt, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.item--YNX .auto-group-rqp5-qwH {
+  width: 100%;
+  height: 169.5rem;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/bg.png');
+  flex-shrink: 0;
+}
+.item--YNX .auto-group-rqp5-qwH .rectangle-3-BkF {
+  width: 125.7rem;
+  height: 169.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 9.2rem;
+  top: 0;
+  background-color: #d9d9d9;
+}
+.item--YNX .auto-group-rqp5-qwH .item--787 {
+  width: 20.7rem;
+  height: 3rem;
+  position: absolute;
+  left: 110.6rem;
+  top: 162.5rem;
+  background-color: #b4e1eb;
+}
+.item--YNX .auto-group-rqp5-qwH .item--R8o {
+  width: 11.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 116.4rem;
+  top: 162.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.textbox {
+  width: 100%;
+  height: 16.5rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.09375;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
+}
