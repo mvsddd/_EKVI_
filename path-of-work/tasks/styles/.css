@@ -215,7 +215,7 @@ body {
   line-height: 1.25;
   color: #000000;
   font-family: Roboto Condensed, 'Source Sans Pro';
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 #link-button2 {
@@ -230,5 +230,5 @@ body {
   line-height: 1.25;
   color: #000000;
   font-family: Roboto Condensed, 'Source Sans Pro';
-  white-space: nowrap
+  white-space: nowrap;
 }
