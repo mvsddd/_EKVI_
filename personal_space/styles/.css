@@ -78,27 +78,8 @@ body {
   font-family: Roboto Condensed, 'Source Sans Pro';
   white-space: nowrap;
 }
-.item--b7y .item--d8X {
-  width: 33.4rem;
-  height: 6.3rem;
-  position: absolute;
-  left: 18.7rem;
-  top: 56.8rem;
-  background-color: #b4e1eb;
-}
-.item--b7y .item--wQ7 {
-  width: 9.7rem;
-  height: 5rem;
-  position: absolute;
-  left: 31.7rem;
-  top: 57.4rem;
-  font-size: 4rem;
-  font-weight: 400;
-  line-height: 1.25;
-  color: #000000;
-  font-family: Roboto Condensed, 'Source Sans Pro';
-  white-space: nowrap;
-}
+
+
 .item--b7y .rectangle-2-x4K {
   width: 144rem;
   height: 19.5rem;
@@ -143,5 +124,20 @@ body {
   line-height: 2.3875;
   color: #000000;
   font-family: Rock Salt, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+#link-button {
+  width: 33.4rem;
+  height: 6.3rem;
+  position: absolute;
+  left: 18.7rem;
+  top: 56.8rem;
+  background-color: #b4e1eb;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Roboto Condensed, 'Source Sans Pro';
   white-space: nowrap;
 }
